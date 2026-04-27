@@ -8,7 +8,6 @@ import {
   PlusCircle,
   Users,
   BookOpen,
-  Settings,
   GraduationCap,
 } from 'lucide-react';
 
@@ -17,7 +16,6 @@ const navItems = [
   { icon: PlusCircle, label: '新建方案', href: '/new-plan' },
   { icon: Users, label: '学生列表', href: '/students' },
   { icon: BookOpen, label: '夏校数据库', href: '/summer-schools' },
-  { icon: Settings, label: '设置', href: '/settings' },
 ];
 
 export default function Sidebar() {
